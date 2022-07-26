@@ -7,7 +7,7 @@ const client =  new TwitterApi(config);
 const app = express()
 
 async function getQuotes_tweet(){
-axios("https://almalnews.com/category/economy-markets/")
+axios("https://######/category/economy-markets/")
 .then(res =>{
 const htmlData = res.data
 const $ = cheerio.load(htmlData);
